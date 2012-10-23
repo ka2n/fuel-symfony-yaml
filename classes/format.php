@@ -1,5 +1,7 @@
 <?php
 
+namespace FuelSymfonYaml;
+
 use Symfony\Component\Yaml\Yaml;
 
 class Format extends \Fuel\Core\Format

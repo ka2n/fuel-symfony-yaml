@@ -10,9 +10,11 @@
  * 
  */
 
+Autoloader::add_core_namespace('FuelSymfonYaml');
+
 Autoloader::add_classes(array(
-    'Lang_Yml' => __DIR__.'/classes/lang/yml.php',
-    'Format' => __DIR__.'/classes/format.php',
+    'FuelSymfonYaml\\Lang_Yml' => __DIR__.'/classes/lang/yml.php',
+    'FuelSymfonYaml\\Format' => __DIR__.'/classes/format.php',
 ));
 
 Autoloader::add_namespace('Symfony\\Component\\Yaml', __DIR__.'/vendor/Yaml/', true);
