@@ -3,10 +3,10 @@
 /**
  * FuelPHP library replace Yaml parser with Symfony's Yaml parser
  *
- * @package		fuelphp-symmfony-yaml
+ * @package		fuel-symmfony-yaml
  * @version		1.0
  * @author		Katsuma Ito (katsumai@gmail.com)
- * @link		http://github.com/ka2n/fuelphp-symfony-yaml
+ * @link		http://github.com/ka2n/fuel-symfony-yaml
  * 
  */
 
